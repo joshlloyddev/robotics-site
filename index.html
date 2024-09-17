@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Robotics and Tutorial Site">
+    <title>Robotics Tutorials</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Robotics Tutorial Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a robotics engineer passionate about teaching and sharing tutorials about robotics and automation. Join me in learning exciting topics!</p>
+    </section>
+
+    <!-- Tutorials Section with Search Filter -->
+    <section id="tutorials">
+        <h2>Tutorials</h2>
+        <input type="text" id="tutorial-search" placeholder="Search Tutorials">
+        <ul id="tutorial-list">
+            <li>Introduction to Robotics</li>
+            <li>Building a Line Following Robot</li>
+            <li>Programming Autonomous Drones</li>
+            <li>Using Sensors in Robotics</li>
+        </ul>
+        <p>Here are some additional tutorials with links:</p>
+        <table>
+            <tr>
+                <th>Tutorial</th>
+                <th>Difficulty</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Introduction to Robotics</td>
+                <td>Beginner</td>
+                <td><a href="tutorials/intro-to-robotics.html">View</a></td>
+            </tr>
+            <tr>
+                <td>Building a Line Following Robot</td>
+                <td>Intermediate</td>
+                <td><a href="tutorials/line-follower.html">View</a></td>
+            </tr>
+            <tr>
+                <td>Autonomous Drone Programming</td>
+                <td>Advanced</td>
+                <td><a href="tutorials/drone-programming.html">View</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Robotics Gallery</h2>
+        <div class="gallery-grid">
+            <img src="images/robot1.jpg" alt="Robot 1">
+            <img src="images/robot2.jpg" alt="Robot 2">
+            <img src="images/robot3.jpg" alt="Robot 3">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: robotics@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Robotics Tutorials. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
