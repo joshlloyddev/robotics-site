@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Robotics and Tutorial Site">
+    <meta name="description" content="Online Robotics Tutorials and Learning Hub">
     <title>Robotics Tutorials</title>
     <link rel="stylesheet" href="styles.css">
-     <!-- Link to font awesome for social media icons -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Robotics Tutorial Site</h1>
+        <h1>Robotics Tutorials Hub</h1>
+        <p>Comprehensive tutorials and guides to help you master robotics step by step</p>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -23,82 +23,215 @@
         </nav>
     </header>
 
-    <!-- Social Media Links in the Header -->
-    <div class="social-links-header">
-        <a href="https://github.com/yourprofile" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-        <a href="https://youtube.com/yourchannel" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-    </div>
-
     <!-- About Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a robotics engineer passionate about teaching and sharing tutorials about robotics and automation. Join me in learning exciting topics!</p>
+        <h2>About the Tutorials</h2>
+        <p>Welcome to the Robotics Tutorials Hub, a dedicated resource for anyone looking to dive deep into the world of robotics. Whether you’re just starting out or you're a seasoned roboticist looking to brush up on specific topics, we’ve got you covered with step-by-step guides, expert advice, and real-world projects. Explore our tutorials to level up your skills today!</p>
     </section>
 
-    <!-- Tutorials Section with Search Filter -->
+    <!-- Tutorials Section -->
     <section id="tutorials">
-        <h2>Tutorials</h2>
-        <input type="text" id="tutorial-search" placeholder="Search Tutorials">
-        <ul id="tutorial-list">
-            <li>Introduction to Robotics</li>
-            <li>Building a Line Following Robot</li>
-            <li>Programming Autonomous Drones</li>
-            <li>Using Sensors in Robotics</li>
-        </ul>
-        <p>Here are some additional tutorials with links:</p>
+        <h2>Explore Robotics Tutorials</h2>
+        <p>Below is a curated set of robotics tutorials that cover everything from the fundamentals of robotics to advanced topics like machine learning, navigation systems, and robot design. Each tutorial is designed to give you practical, hands-on experience in robotics development.</p>
+
         <table>
             <tr>
-                <th>Tutorial</th>
-                <th>Difficulty</th>
-                <th>Link</th>
+                <th>Tutorial Topic</th>
+                <th>Description</th>
+                <th>Start Learning</th>
             </tr>
+
             <tr>
                 <td>Introduction to Robotics</td>
-                <td>Beginner</td>
-                <td><a href="tutorials/intro-to-robotics.html">View</a></td>
+                <td>Get started with the basics of robotics, covering its history, components, and various types of robots. Ideal for beginners.</td>
+                <td><a href="#">Start Now</a></td>
             </tr>
             <tr>
-                <td>Building a Line Following Robot</td>
-                <td>Intermediate</td>
-                <td><a href="tutorials/line-follower.html">View</a></td>
+                <td>Subtopics</td>
+                <td>
+                    <ul>
+                        <li>What is Robotics?</li>
+                        <li>History and Evolution of Robotics</li>
+                        <li>Types of Robots (Industrial, Service, Humanoid, etc.)</li>
+                        <li>Key Components of a Robot</li>
+                        <li>Future of Robotics</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Programming for Robotics</td>
+                <td>Learn the programming languages and environments used in robotics, including Python, C++, and ROS. A must for robot developers.</td>
+                <td><a href="#">Start Now</a></td>
             </tr>
             <tr>
-                <td>Autonomous Drone Programming</td>
-                <td>Advanced</td>
-                <td><a href="tutorials/drone-programming.html">View</a></td>
+                <td>Subtopics</td>
+                <td>
+                    <ul>
+                        <li>Python for Robotics</li>
+                        <li>C++ in Robotics</li>
+                        <li>Robot Operating System (ROS) Basics</li>
+                        <li>Simulation Platforms: Gazebo, Webots</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Robot Design and Engineering</td>
+                <td>Deep dive into designing robots, from mechanical structure to energy systems and prototyping with 3D printing.</td>
+                <td><a href="#">Start Now</a></td>
+            </tr>
+            <tr>
+                <td>Subtopics</td>
+                <td>
+                    <ul>
+                        <li>Mechanical Design for Robotics</li>
+                        <li>Kinematics and Dynamics</li>
+                        <li>Actuators, Motors, and Power Systems</li>
+                        <li>Prototyping with 3D Printing</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Sensors and Perception</td>
+                <td>Understand the different sensors used in robots, from vision systems to LIDAR, and learn how to integrate them into your projects.</td>
+                <td><a href="#">Start Now</a></td>
+            </tr>
+            <tr>
+                <td>Subtopics</td>
+                <td>
+                    <ul>
+                        <li>Ultrasonic, IR, and LIDAR Sensors</li>
+                        <li>Camera Systems and Computer Vision</li>
+                        <li>Inertial Measurement Units (IMUs)</li>
+                        <li>Sensor Fusion Techniques</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Control Systems and Algorithms</td>
+                <td>Learn how to control robots effectively using algorithms for motion control, path planning, and more.</td>
+                <td><a href="#">Start Now</a></td>
+            </tr>
+            <tr>
+                <td>Subtopics</td>
+                <td>
+                    <ul>
+                        <li>PID Control and Motion Planning</li>
+                        <li>Localization and Mapping (SLAM)</li>
+                        <li>Path Planning Algorithms (A*, Dijkstra)</li>
+                        <li>Real-Time Control Systems</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Artificial Intelligence in Robotics</td>
+                <td>Discover how AI is transforming robotics, from machine learning to autonomous navigation and decision-making.</td>
+                <td><a href="#">Start Now</a></td>
+            </tr>
+            <tr>
+                <td>Subtopics</td>
+                <td>
+                    <ul>
+                        <li>Introduction to Machine Learning</li>
+                        <li>Reinforcement Learning in Robotics</li>
+                        <li>Computer Vision and Image Processing</li>
+                        <li>AI for Autonomous Robots</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Autonomous Navigation and Systems</td>
+                <td>Explore tutorials on building autonomous robots, including self-driving cars and drones, with a focus on navigation and multi-robot systems.</td>
+                <td><a href="#">Start Now</a></td>
+            </tr>
+            <tr>
+                <td>Subtopics</td>
+                <td>
+                    <ul>
+                        <li>Autonomous Navigation Basics</li>
+                        <li>GPS and Inertial Navigation</li>
+                        <li>Multi-Robot Coordination</li>
+                        <li>Autonomous Drones</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Robot Learning and Adaptation</td>
+                <td>Learn how robots can learn from their environment and adapt to new tasks through machine learning and adaptive algorithms.</td>
+                <td><a href="#">Start Now</a></td>
+            </tr>
+            <tr>
+                <td>Subtopics</td>
+                <td>
+                    <ul>
+                        <li>Imitation Learning</li>
+                        <li>Adaptive Control Systems</li>
+                        <li>Transfer Learning (Sim2Real)</li>
+                        <li>Evolutionary Algorithms</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Hands-On Projects and Tutorials</td>
+                <td>Take your robotics skills to the next level with real-world projects that you can build and program yourself.</td>
+                <td><a href="#">Start Now</a></td>
+            </tr>
+            <tr>
+                <td>Subtopics</td>
+                <td>
+                    <ul>
+                        <li>Building a Line-Following Robot</li>
+                        <li>Creating a Voice-Controlled Robot</li>
+                        <li>Autonomous Navigation Robot Project</li>
+                        <li>Programming Robotic Arms</li>
+                    </ul>
+                </td>
+                <td></td>
             </tr>
         </table>
     </section>
 
     <!-- Gallery Section -->
     <section id="gallery">
-        <h2>Robotics Gallery</h2>
+        <h2>Robotics Project Gallery</h2>
         <div class="gallery-grid">
-            <img src="images/robot1.jpg" alt="Robot 1">
-            <img src="images/robot2.jpg" alt="Robot 2">
-            <img src="images/robot3.jpg" alt="Robot 3">
+            <img src="images/robot1.jpg" alt="Robot Project 1">
+            <img src="images/robot2.jpg" alt="Robot Project 2">
+            <img src="images/robot3.jpg" alt="Robot Project 3">
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: robotics@example.com</p>
+        <p>If you have any questions or need further assistance with a tutorial, feel free to reach out to me at <strong>robotics@example.com</strong>.</p>
     </section>
 
     <!-- Social Media Links in the Footer -->
     <footer>
-        <p>&copy; 2024 Robotics Tutorials. All rights reserved.</p>
+        <p>&copy; 2024 Robotics Tutorials Hub. All rights reserved.</p>
         <div class="social-links">
-            <a href="https://github.com/yourprofile" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://youtube.com/yourchannel" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://youtube.com/yourchannel" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>
     </footer>
-
 
     <script src="script.js"></script>
 </body>
